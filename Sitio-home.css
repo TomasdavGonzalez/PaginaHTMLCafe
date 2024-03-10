@@ -1,0 +1,54 @@
+					
+/* |PALETA COLORES|
+|Color Oscuro|
+	-Gris oscuro: #CCCCCC
+	-Azul oscuro: #1E90FF
+	-Verde oscuro: #006400
+	
+|Color Claro|
+	-Gris claro suave: #ECECEC
+	-Azul suave: #AED6F1
+	-Verde suave: #B0E57C*/
+
+/*|Diseño Header|*/
+
+	header {width: 100%;													/*Longitud de header*/
+			background-color: #CCCCCC; position: fixed; top: 0;} 			/* Color de header*/
+		
+		.links { text-align: center;}
+		.links span {padding: 10px 100px; 											
+				color: #006400; 														
+				text-decoration: none;}
+/*|Diseño Categoría|*/
+
+	.categoriasA	{background-color: #CCCCCC;
+					width: 30%;
+					text-align: center;
+					color: 006400;}
+	.tituloprincipal {text-align: center; font-size: 70px; color: #006400;}
+	.SobreNosotros {background-color: #CCCCCC; padding: 10px;}	
+
+	.SND span{color: #B0E57C;
+			  text-decoration: none;}
+	
+	.Recetario {background-color: #CCCCCC;}
+
+/*SITIO-RECETARIO-DISEÑO*/
+
+	.Receta1 {background-color: #ECECEC;}
+	.Receta2 {background-color: #ECECEC;}
+	.excelenteiced {font-size:30px;}
+	.Recetariojpg {width: 50%;}
+	.SubTituloCafesFrios{font-size: 40px;}
+	.SubtituloCafesCalientes{font-size: 40px;}
+	.CappuccinoSubtitulo{font-size:30px;}
+	.cuestionario{background-color: #ECECEC;}
+
+/*SITIO-QUIENES SOMOS-DISEÑO*/
+
+	.Quienessomos{background-color: #C7F9A7;}
+	.aparecer {opacity: 0; 								/* Hacer que el elemento sea inicialmente transparente */
+			   animation: aparecer 15s ease forwards;} 	/* Aplicar la animación */
+			   @keyframes aparecer {from {opacity: 0;} to {opacity: 1;}}
+
+
